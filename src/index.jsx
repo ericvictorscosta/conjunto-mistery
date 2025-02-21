@@ -26,7 +26,8 @@ const router = createBrowserRouter([
     path: "/",
     element:
       <CtnClose>
-        <Home />
+        {/* <Home /> */}
+        <h1>CJ MISTERY</h1>
       </CtnClose>
   },
 
