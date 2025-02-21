@@ -65,7 +65,7 @@ export const DescriptionZone = styled.div`
   gap: 12px;
 
   h6 {
-    font-family: 'Readex Pro';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -77,7 +77,7 @@ export const DescriptionZone = styled.div`
   }
 
   span {
-    font-family: 'Readex Pro';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -90,7 +90,7 @@ export const DescriptionZone = styled.div`
   }
 
   p {
-    font-family: 'Readex Pro';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -117,7 +117,7 @@ export const CtnTitle = styled.div`
   h3 {
     width: 70%;
 
-    font-family: 'Cinzel';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -133,7 +133,7 @@ export const CtnTitle = styled.div`
   span {
     width: 30%;
 
-    font-family: 'Cinzel';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -167,7 +167,7 @@ export const PriceZone = styled.div`
   gap: 3.5px;
 
   h5 {
-    font-family: 'Readex Pro';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -177,7 +177,7 @@ export const PriceZone = styled.div`
   }
 
   .cort-price {
-    font-family: 'Cinzel';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -199,7 +199,7 @@ export const PriceZone = styled.div`
   }
 
   span {
-    font-family: 'Cinzel';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -208,7 +208,7 @@ export const PriceZone = styled.div`
   }
 
   .price-real  {
-    font-family: 'Cinzel';
+    font-family: 'omega-regular';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -221,7 +221,7 @@ export const ButtonCard = styled.a`
   background: linear-gradient(126.86deg, #EEDABC 9.99%, #987952 115.22%);
   border-radius: 2px;
 
-  font-family: 'Cinzel';
+  font-family: 'omega-regular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -300,7 +300,7 @@ export const ButtonCardPreSell = styled.a`
   background: rgb(140, 5, 5);
   border-radius: 2px;
 
-  font-family: 'Montserrat';
+  font-family: 'omega-regular';;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;

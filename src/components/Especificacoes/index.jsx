@@ -21,16 +21,16 @@ const Especificacoes = ({
   return (
     <Container>
 
-      <ButtonUptoTop onClick={onclickBtnTop} />
+      {/* <ButtonUptoTop onClick={onclickBtnTop} /> */}
 
       <HeadEspecify>
         <div className="imgFB">
-          <img src="https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_444291343.webp?v=1686412538" alt="FRENTE" />
-          <span>FRENTE</span>
+          <img src="https://cdn.shopify.com/s/files/1/0679/9946/5650/files/13.png?v=1739998510" alt="FRENTE" />
+          {/* <span>FRENTE</span> */}
         </div>
         <div className="imgFB">
-          <img src="https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_447616215.png?v=1686412538" alt="VERSO" />
-          <span>VERSO</span>
+          <img src="https://cdn.shopify.com/s/files/1/0679/9946/5650/files/12.png?v=1739998510" alt="VERSO" />
+          {/* <span>VERSO</span> */}
         </div>
       </HeadEspecify>
 
@@ -42,9 +42,9 @@ const Especificacoes = ({
         {
           acessDb.map((item, index) => (
             <ContainerSpec key={index}>
-              <Content style={{ alignSelf: "start", marginLeft: "30px" }}>
+              <Content style={{ alignSelf: "start", marginLeft: "15px" }}>
                 {/* <BsCheckCircleFill size="17.5px" /> */}
-                <img className="imgRose" src="https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_322252581-removebg-preview.png?v=1686413373" alt="" />
+                <img className="imgRose" src="https://cdn.shopify.com/s/files/1/0679/9946/5650/files/FichaCassino.svg?v=1740174335" alt="" />
                 <ContentTitle>{item.title}</ContentTitle>
               </Content>
 

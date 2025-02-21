@@ -101,52 +101,29 @@ export const FrameDefault = {
 
   Descricao: {
     linkChekout: "",
-    primeiroTitulo:
-      `"VOCÊ TERÁ A GARANTIA DE UM ESTILO FORA DA CURVA, CRAQUES NÃO SEGUEM TENDÊNCIAS. ELES CRIAM. AGORA, VOCÊ ESTÁ NO JOGO."`,
-    descricao1:
-      "Do relógio que define lendas ao óculos mais ousado, passando pela gargantilha que impõe respeito – um conjunto de atitude e presença. E agora, pode ser seu.",
     descricao2:
-      "O mistério pertence a quem domina o jogo e deixa sua marca. Três peças, uma experiência única. Você está à altura?",
+      "",
     ImageLpSeq1:
       "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/arte-2-alif-psd.jpg?v=1686282166",
     ImageLpSeq11:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/313356563_3323876334534874_2630218426635507994_n_1.png?v=1686425377",
-    segundoTitulo:
-      "O RELÓGIO QUE DOMINA O TEMPO, ONDE CADA GIRO É UMA APOSTA NO DESTINO",
-    descricao3:
-      "No universo dos relógios icônicos, poucos capturam a emoção do jogo como este. Um giro na roleta, um instante no tempo – uma peça que representa ousadia, precisão e a mentalidade dos que apostam alto na vida",
+      "https://cdn.shopify.com/videos/c/o/v/622cf1efc4994ac58af3cd9467b4eff0.mp4",
+
+
     ImageLpSeq2:
-      "https://dynamix-cdn.s3.amazonaws.com/jacobandcocom/jacobandcocom_211206647.gif",
-    terceiroTitulo:
-      "O Menino de Ouro",
-    descricao4:
-      "Cada vez que Neymar Jr olha para suas conquistas, é como se o tempo parasse para reconhecer sua grandeza. Cada troféu erguido é a prova de sua genialidade, uma lembrança constante de que ele sempre esteve entre os melhores. Da Champions League à Libertadores, do ouro olímpico aos títulos nacionais, sua trajetória não é apenas sobre vitórias, mas sobre marcar época. Seu legado não se mede apenas em gols, mas no impacto que deixa a cada jogo, a cada drible, a cada momento decisivo",
+      "https://cdn.shopify.com/videos/c/o/v/622cf1efc4994ac58af3cd9467b4eff0.mp4",
+
+
     ImageLpSeq02:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_312328458.webp?v=1686409887",
-    quartoTitulo:
-      "UM COLAR QUE DEFINE SEU ESTILO",
-    descricao5:
-      "Entre os acessórios que elevam qualquer visual, a gargantilha de cruz cravejada de Neymar Jr é a peça que faltava no seu repertório. Luxuosa, imponente e versátil, ela combina com qualquer ocasião, adicionando um toque de exclusividade a quem a usa. Seja com um look casual ou sofisticado, esse colar garante presença e atitude. Se estilo é poder, essa peça é indispensável",
+      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/yXiqyEmyr_1290x760__1.jpg?v=1740163072",
+
     ImageLpSeq3:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/339783261_963540034672086_2069817484103948317_n.png?v=1686283848",
-    quintoTitulo:
-      "COM MISTÉRIO E SEDUÇÃO, DEIXE SUA PRESENÇA MARCAR CADA AMBIENTE COMO UM VERDADEIRO DON CORLEONE",
-    descricao6:
-      "No mundo de intrigas e poder, há um perfume que envolve aqueles que ousam adentrar o universo do Poderoso Chefão. Esse aroma distintivo se tornou um símbolo indiscutível de sedução e influência, cativando os sentidos e deixando uma marca indelével.",
+      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/19.png?v=1739998510",
+
+
     ImageLpSeq4:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/313215968_1482544425580409_3482047139856009059_n_8d869477-32a7-453a-b99f-ab1d099382d2.png?v=1686287062",
-    sextoTitulo:
-      "PIANO: COMPILAÇÃO MUSICAL DO PADRINHO",
-    descricao7:
-      "Integradas como parte da caixa de música, as teclas do piano são na realidade o pente que entra em contato com os pinos do cilindro, produzindo a música. Como resultado, as teclas do piano se movem enquanto a música toca.",
-    ImageLpSeq5:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_122393410.webp?v=1686410040",
-    setimoTitulo:
-      "MINIATURA ROSA, A EXCELÊNCIA DE UM CAVALHEIRO",
-    descricao8:
-      "Sentado bem no centro do 50º Aniversário do Poderoso Chefão está uma estatueta em miniatura, gravada e pintada à mão, da rosa que o Poderoso Chefão usa em sua lapela. Representa uma das muitas homenagens que o 50º Aniversário do Padrinho.",
-    ImageLpSeq6:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_322252581.webp?v=1686410692",
+      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/neymar-oculos-croacia-gq.webp?v=1740163491",
+
+  
     oitavoTitulo:
       "CAIXA GRAVADA A LASER",
     descricao9:
@@ -158,7 +135,7 @@ export const FrameDefault = {
     descricao10:
       "A montagem delicadamente detalhada do turbilhão de eixo triplo gira em três eixos simultaneamente: uma rotação completa no 1º eixo leva 24 segundos, no 2º 48 segundos e no terceiro 180 segundos para ser concluída. Como é sustentado apenas pela extremidade inferior, sem ponte superior cobrindo-o, este turbilhão também é do tipo voador.",
     ImageLpSeq8:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/jacobandcocom_843962091.webp?v=1686410934",
+      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/Jacob_Co.jpg?v=1740169120",
     decimoTitulo:
       "DESVENDE O SEGREDO DA CAIXA QUE ABRIGA O PODER E PERMITA-SE SER ENVOLVIDO POR UMA EXPERIÊNCIA ÚNICA E MISTERIOSA",
     descricao11:
@@ -167,34 +144,40 @@ export const FrameDefault = {
       "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/New_Banner.jpg?v=1686941755",
   },
 
-  TituloEspecification: "ESPECIFICAÇÕES GODFATHER",
+  TituloEspecification: "ESPECIFICAÇÕES CONJUNTO MISTERY NJ",
 
   Especification: [
     {
       title: "Relógio",
       specs: [
         { name: "", value: "Mecanismo preciso." },
-        { name: "", value: "Design elegante com detalhes inspirados no filme." },
+        { name: "", value: "Design elegante com detalhes ." },
         { name: "", value: "Pulseira ajustável para se adequar a qualquer pulso." },
+        { name: "", value: "Pulseira ajustável para se adequar a qualquer pulso." },
+        { name: "", value: "Mostrador Sólido, Roleta com bola de cerâmica" },
+        { name: "", value: "Ponteiros de Ródio" },
       ],
     },
     {
-      title: "Caixa",
+      title: "Gargantilha Cruz Cravejada",
       specs: [
-        { name: "", value: "Projetada com requinte para proteção e armazenamento elegante." },
+        { name: "", value: "Prata maciça 925 italiana" },
+        { name: "", value: "1 milímetro de espessura" },
+        { name: "", value: "Melhor Prata do mercado (teor 925)" },
+        { name: "", value: "Detalhes sofisticados" },
+        { name: "", value: "Tamanho adaptável" },        
+        { name: "", value: "Garantia Vitalícia na pureza da prata" }],
+    },
+    {
+      title: "Juliet Oakley Thump 2",
+      specs: [
+        { name: "", value: "Óculos Esportivo com Fone de Ouvido Bluetooth 5.0 de Alta qualidade" },
+        { name: "", value: "Bateria Dura de 4 a 8 horas" },
+        { name: "", value: "Armação X Metal" },
+        { name: "", value: "Lentes polarizadas" },
+        { name: "", value: "Estética esportiva com Conforto e durabilidade" },
+        { name: "", value: "Proteção e visão clara, redução do brilho e aumento do contraste" },
       ],
-    },
-    {
-      title: "Caneta",
-      specs: [{ name: "", value: "Corpo robusto e durável." }],
-      specs: [{ name: "", value: "Escrita suave e fluída." }],
-      specs: [{ name: "", value: "Detalhes sofisticados lembrando o Poderoso Chefão." }],
-    },
-    {
-      title: "Perfume",
-      specs: [{ name: "", value: "Fragrância marcante e envolvente." }],
-      specs: [{ name: "", value: "Fixação de longa duração." }],
-      specs: [{ name: "", value: "Embalagem elegante com o emblema do Poderoso Chefão." }],
     }
   ],
 

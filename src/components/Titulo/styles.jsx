@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const TituloText = styled.p`
-  font-family: "Poppins",sans-serif;
+  font-family: 'omega-regular',sans-serif;
   font-size: 22px;
   font-weight: 700;
   font-style: normal;

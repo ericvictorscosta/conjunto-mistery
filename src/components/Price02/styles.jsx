@@ -19,7 +19,7 @@ export const Seamaster = styled.p`
 `
 
 export const TitleProduct = styled.h1`
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'omega-regular';, sans-serif;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.2;

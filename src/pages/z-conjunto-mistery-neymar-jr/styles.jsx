@@ -15,6 +15,22 @@ export const Row = styled.div`
   @media screen and (min-width: 1280px) {
     gap: 50px;
   }
+
+  .iframe {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% da altura da tela */
+    overflow: hidden;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Garante que o vídeo preencha a tela sem cortes */
+    }
+  }
 `
 
 export const PriceCtn = styled.div`
@@ -97,6 +113,17 @@ export const Section = styled.section`
     }
   }
 `
+
+export const VideoContainer = styled.div`
+  position: relative;
+  width: 100%;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+`;
 
 export const Observacao = styled.p`
   font-size: 1rem;

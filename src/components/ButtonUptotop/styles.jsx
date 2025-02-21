@@ -205,7 +205,7 @@ export const ThirdCall = styled.h1`
 `
 
 export const Phrase = styled.p`
-  font-family: "Poppins", sans-serif;
+  font-family: 'omega-regular', sans-serif;
   font-size: 15px;
   font-weight: 700;
   font-style: italic;

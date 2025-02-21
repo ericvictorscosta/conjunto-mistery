@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'omega-regular';
+    src: local('Austin Medium Italic'), local('Austin-Medium-Italic'),
+        url('AustinCyr-MediumItalic.woff2') format('woff2'),
+        url('AustinCyr-MediumItalic.woff') format('woff'),
+        url('AustinCyr-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }

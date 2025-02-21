@@ -2,8 +2,9 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   width: 100%;
-  margin-top: -17px;
+  margin-top: -5px;
   padding: 15px 0 20px;
+  padding-top: 0;
   background: rgb(239, 239, 239);
   background: linear-gradient(rgb(211 211 211) 30%, rgb(245 245 245) 90%);
   display: flex;
@@ -14,7 +15,7 @@ export const Container = styled.div`
 
 export const HeadEspecify = styled.div`
   display: flex;
-  align-items: center;
+  align-items: start;
 
   .imgFB {
     width: 50%;
@@ -23,7 +24,7 @@ export const HeadEspecify = styled.div`
     align-items: center;
 
     img {
-      width: 90%;
+      width: 100%;
       height: auto;
       object-fit: contain;
     }
@@ -53,7 +54,9 @@ export const Table = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: "Quicksand", sans-serif;
+  padding: 25px;
+  padding-bottom: 0;
+  font-family: "omega-regular", sans-serif;
   font-weight: 700;
   font-size: 22px;
   text-align: center;
@@ -68,13 +71,13 @@ export const Content = styled.div`
   margin-bottom: 5px;
 
   .imgRose {
-    width: 21px;
+    width: 30px;
     transform: rotate(336deg);  
   }
 `
 
 export const ContentTitle = styled.p`
-  font-family: "Quicksand", sans-serif;
+  font-family: "omega-regular", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #222121;

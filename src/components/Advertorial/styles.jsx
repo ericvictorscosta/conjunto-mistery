@@ -26,7 +26,7 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.h1`
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'omega-regular', sans-serif;
     font-size: 40px;
     font-weight: 700;
     font-style: normal;
@@ -38,7 +38,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.h4`
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'omega-regular', sans-serif;
     font-size: 18px;
     font-weight: 500;
     font-style: normal;

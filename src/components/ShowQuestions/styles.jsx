@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Title = styled.p`
   width: 80%;
   margin: 0 auto;
-  font-family: 'Montserrat';
+  font-family: 'omega-regular';;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -35,7 +35,7 @@ export const ContainerItem = styled.div`
   gap: 15px;
 
   .description {
-    font-family: 'Montserrat';
+    font-family: 'omega-regular';;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

@@ -90,7 +90,7 @@ export const Text = styled.p`
 `
 
 export const Title = styled.p`
-  font-family: 'Readex Pro', sans-serif;
+  font-family: 'omega-regular', sans-serif;
   font-style: normal;
 
   font-size: 16px;

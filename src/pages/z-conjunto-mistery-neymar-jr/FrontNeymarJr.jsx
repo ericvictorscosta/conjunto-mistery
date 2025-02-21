@@ -13,10 +13,12 @@ import { Especificacoes } from "../../components/Especificacoes"
 import { Garantia } from "../../components/Garantia"
 import { AvaliablesText } from "../../components/AvaliablesText"
 import { Faq } from "../../components/Faq"
-import { Footer } from "../../components/Footer"
+import { FaqFooter } from "../../components/FaqFooter"
 import { FrameDefault } from "./db"
 import { useNavigate } from "react-router-dom"
 import ObsDownButton from "../../components/ObsDownButton"
+
+import { HeadLineImage } from '../../components/HeadLineImage/index'
 
 import {
   Container,
@@ -28,19 +30,21 @@ import {
   DivLeftContent,
   BannerImage,
   DivRightContent,
+  VideoContainer,
 } from "./styles"
 import { Titulo } from "../../components/Titulo"
 import { Text } from "../../components/Text"
 import { CardProductClean } from "../../components/CardProductClean"
 import { Price02 } from "../../components/Price02"
 import LinkModal from "../../components/LinkModal"
-import { CarouselFooter } from "../../components/CarrosselFooter"
 import ModalAddToCard from "../../components/ModalAddToCard"
 import { ShowQuestions } from "../../components/ShowQuestions"
 import { Logo } from "../../components/Logo"
+import { DataBaseFooter } from "../../assets/database/Footer/Db"
 
 function FrontNeymarJr() {
   const Db = FrameDefault
+  const DbFooter = DataBaseFooter
 
   const [selectedColor, setSelectedColor] = useState("azul")
   const [selectedSize, setSelectedSize] = useState("68")
@@ -257,100 +261,117 @@ function FrontNeymarJr() {
         <Section className="description-page">
 
           <div className="text_space">
-            <iframe style={{ margin: '0 0 15px' }} title="vimeo-player" src="https://cdn.shopify.com/videos/c/o/v/99cdfcb2d852473fa8fa68d6566c16ae.mp4" width="100%" height="214px" frameborder="0" allowfullscreen=""></iframe>
+            <HeadLineImage
+              bannerImage="https://cdn.shopify.com/s/files/1/0679/9946/5650/files/domina-tempo.jpg?v=1740161096"
+              videoId="https://cdn.shopify.com/videos/c/o/v/56deaf234c7c4c3ebe748389193420e8.mp4"
+            />
 
-            <Titulo tituloText={Db.Descricao.primeiroTitulo} />
+            <Titulo tituloText='VOCÊ TERÁ A GARANTIA DE UM ESTILO FORA DA CURVA, CRAQUES NÃO SEGUEM TENDÊNCIAS. ELES CRIAM. AGORA, VOCÊ ESTÁ NO JOGO.' />
 
-            <Text inlineStyle={{ margin: '10px 0' }} textItem={Db.Descricao.descricao1} />
+            <Text inlineStyle={{ margin: '10px 0' }} textItem='Do relógio que define lendas ao óculos mais ousado, passando pela gargantilha que impõe respeito – um conjunto de atitude e presença. E agora, pode ser seu.' />
 
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao2} />
+            <Text inlineStyle={{ marginBottom: '10px' }} textItem='O mistério pertence a quem domina o jogo e deixa sua marca. Três peças, uma experiência única. Você está à altura?' />
           </div>
 
           <ImageLp image={Db.Descricao.ImageLpSeq1} />
 
           <div className="text_space">
-            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.segundoTitulo} />
+            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText='O RELÓGIO QUE DOMINA O TEMPO, ONDE CADA GIRO É UMA APOSTA NO DESTINO' />
 
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao3} />
+            <Text inlineStyle={{ marginBottom: '10px' }} textItem='No universo dos relógios icônicos, poucos capturam a emoção do jogo como este. Um giro na roleta, um instante no tempo – uma peça que representa ousadia, precisão e a mentalidade dos que apostam alto na vida' />
           </div>
 
-          <ImageLp image={Db.Descricao.ImageLpSeq11} />
+        </Section>
 
-          {/* <div className="text_space">
-            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.decimoTitulo} />
+        <VideoContainer>
+          <video
+            title="vimeo-player"
+            src="https://cdn.shopify.com/videos/c/o/v/622cf1efc4994ac58af3cd9467b4eff0.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        </VideoContainer>
+        <Section className="description-page">
 
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao11} />
-          </div>
-            
-          <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao11} />
-          </div>
-
-          <ImageLp image={Db.Descricao.ImageLpSeq9} /> */}
 
           <div className="text_space">
-            <Titulo inlineStyle={{ fontSize: '24px', margin: '15px 0 10px', color: '#8c0505', fontStyle: 'italic', textAlign: 'start', fontWeight: '600' }} tituloText={Db.Descricao.terceiroTitulo} />
+            <Titulo inlineStyle={{ fontSize: '24px', margin: '15px 0 10px', color: 'rgb(189 175 150)', fontStyle: 'italic', textAlign: 'start', fontWeight: '600' }} 
+            tituloText='O Menino de Ouro' />
 
-            <Text inlineStyle={{ marginBottom: '10px', textAlign: 'start', paddingRight: '5px' }} textItem={Db.Descricao.descricao4} />
+            <Text inlineStyle={{ marginBottom: '10px', textAlign: 'start', paddingRight: '5px' }} 
+            textItem='Cada vez que Neymar Jr olha para suas conquistas, é como se o tempo parasse para reconhecer sua grandeza.' />
+            
+            <Text inlineStyle={{ marginBottom: '10px', textAlign: 'start', paddingRight: '5px' }} 
+            textItem='Cada troféu erguido é a prova de sua genialidade, uma lembrança constante de que ele sempre esteve entre os melhores. Da Champions League à Libertadores, do ouro olímpico aos títulos nacionais, sua trajetória não é apenas sobre vitórias, mas sobre marcar época.' />
+            
+            <Text inlineStyle={{ marginBottom: '10px', textAlign: 'start', paddingRight: '5px' }} 
+            textItem='Seu legado não se mede apenas em gols, mas no impacto que deixa a cada jogo, a cada drible, a cada momento decisivo' />
           </div>
 
           <ImageLp image={Db.Descricao.ImageLpSeq02} />
 
           <div className="text_space">
-            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.quartoTitulo} />
+            <Titulo inlineStyle={{ margin: '15px 0 10px' }} 
+            tituloText='UM COLAR QUE DEFINE SEU ESTILO' />
 
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao5} />
+            <Text inlineStyle={{ marginBottom: '10px' }} 
+            textItem='Entre os acessórios que elevam qualquer visual, a gargantilha de cruz cravejada de Neymar Jr é a peça que faltava no seu repertório.' />
+            
+            <Text inlineStyle={{ marginBottom: '10px' }} 
+            textItem='Luxuosa, imponente e versátil, ela combina com qualquer ocasião, adicionando um toque de exclusividade a quem a usa. Seja com um look casual ou sofisticado, esse colar garante presença e atitude. Se estilo é poder, essa peça é indispensável' />
           </div>
 
           <ImageLp image={Db.Descricao.ImageLpSeq3} />
 
           <div className="text_space">
-            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.quintoTitulo} />
+            <Titulo inlineStyle={{ margin: '15px 0 10px' }} 
+            tituloText="COM ATITUDE E OUSADIA, VEJA O MUNDO COMO UM VERDADEIRO CRAQUE" />
 
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao6} />
+            <Text inlineStyle={{ marginBottom: '10px' }} 
+            textItem='No jogo do estilo, há um acessório que separa os comuns dos lendários. A Juliet Oakley Thump não é apenas um óculos – é a assinatura de quem impõe respeito e se destaca sem esforço.' />
+            
+            <Text inlineStyle={{ marginBottom: '10px' }} 
+            textItem='Com um design ousado e presença marcante, ela completa o Conjunto Mistery, elevando sua identidade para outro nível. Porque enxergar além não é uma opção, é um privilégio de quem nasceu para ser diferente.' />
           </div>
 
           <ImageLp image={Db.Descricao.ImageLpSeq4} />
 
-          <div className="text_space">
-            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.sextoTitulo} />
-
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao7} />
-          </div>
-
-          <ImageLp image={Db.Descricao.ImageLpSeq5} />
-          <ImageLp image={Db.Descricao.ImageLpSeq2} receptStyled={{ marginTop: '-5px' }} />
-
-          <div className="text_space">
-            <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.setimoTitulo} />
-
-            <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao8} />
-          </div>
-
-          <ImageLp image={Db.Descricao.ImageLpSeq6} />
+          
 
           <div className="text_space">
             <Titulo inlineStyle={{ margin: '15px 0 10px' }} tituloText={Db.Descricao.nonoTitulo} />
 
             <Text inlineStyle={{ marginBottom: '10px' }} textItem={Db.Descricao.descricao10} />
           </div>
-
-          <ImageLp image={Db.Descricao.ImageLpSeq8} />
-
         </Section>
+
+        <VideoContainer>
+          <video
+            title="vimeo-player"
+            src="https://cdn.shopify.com/videos/c/o/v/cf3617c4e9df4c7cbfa4952305c88c85.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        </VideoContainer>
 
         {/* <ElementDivision src={ThirdDivisor} /> */}
 
-        <Section className="especificacoes-page" style={{ padding: '0' }}>
-          <Especificacoes
-            onclickBtnTop={() =>
-              minhaSecaoRef.current.scrollIntoView({ behavior: "smooth" })
-            }
-            acessDb={Db.Especification}
-            titlePage={Db.TituloEspecification}
-          >
+        <Especificacoes
+          onclickBtnTop={() =>
+            minhaSecaoRef.current.scrollIntoView({ behavior: "smooth" })
+          }
+          acessDb={Db.Especification}
+          titlePage={Db.TituloEspecification}
+        >
 
-          </Especificacoes>
-        </Section>
+        </Especificacoes>
+        
 
         <AvaliablesText acessDb={Db.Avaliables} />
 
@@ -369,9 +390,9 @@ function FrontNeymarJr() {
 
         {/* <ShowQuestions /> */}
 
-        <Footer
-          paginaInicial="https://operagodfather.shop/"
-          prazoEntrega="7 e 21 dias úteis"
+        <FaqFooter
+          acessDb={DbFooter.Faq}
+          titlePage="DÚVIDAS FREQUENTES"
         />
       </Container>
     </>

@@ -27,7 +27,7 @@ export const ContainerAvaliable = styled.div`
   }
   
   .campText .ctnName .name {
-    font-family: "Poppins", sans-serif;
+    font-family: 'omega-regular', sans-serif;
     font-weight: bold;
     font-size: 16px;
   }
