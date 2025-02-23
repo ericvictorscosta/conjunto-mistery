@@ -6,7 +6,6 @@ export const ContainerAvaliable = styled.div`
   
   display: flex;
   align-items: start;
-  font-family: 'omega-regular', sans-serif;
   padding: 10px 20px;
   border: 1px solid gray;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);

@@ -300,7 +300,7 @@ export const ButtonCardPreSell = styled.a`
   background: rgb(140, 5, 5);
   border-radius: 2px;
 
-  font-family: 'omega-regular';;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;

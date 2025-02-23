@@ -148,7 +148,7 @@ export const FrameDefault = {
 
   Especification: [
     {
-      title: "Relógio",
+      title: "Relógio Casino Tourbillon",
       specs: [
         { name: "", value: "Mecanismo preciso." },
         { name: "", value: "Design elegante com detalhes ." },
@@ -183,75 +183,81 @@ export const FrameDefault = {
 
   Avaliables: [
     {
-      name: "Vito Romano",
+      name: "Lucas Menezes",
       description:
-        "Recebi o conjunto completo com relógio, perfume e caneta é simplesmente impressionante! Recebo elogios toda vez que os uso.",
+        "Recebi o conjunto completo com o relógio, a gargantilha e a Juliet. A qualidade é surreal! Sempre que uso, recebo elogios.",
       starsIcon: "1",
+      image: "https://example.com/imagens/lucas-menezes.jpg",
     },
     {
-      name: "Antonio Barzini",
+      name: "Felipe Andrade",
       description:
-        "O perfume do Poderoso Chefão é uma fragrância envolvente e poderosa. Minha namorada está amando.",
+        "A Juliet Oakley Thump dá um toque de ousadia ao meu estilo. Nunca pensei que um óculos pudesse fazer tanta diferença no meu visual!",
       starsIcon: "0",
     },
     {
-      name: "Leonardo Stracci",
+      name: "Rafael Souza",
       description:
-        "A caneta do Poderoso Chefão é minha companheira indispensável nos negócios. Escrever com ela me faz sentir confiante e dominante",
+        "A gargantilha é simplesmente impecável. Ela combina com qualquer look e tem uma presença marcante. Sinto que eleva meu estilo a outro nível.",
       starsIcon: "1",
+      image: "https://example.com/imagens/rafael-souza.jpg",
     },
     {
-      name: "Rocco Tattaglia",
+      name: "Thiago Martins",
       description:
-        "Comprei  e recebi o conjunto mistery do Poderoso Chefão, fiquei impressionado com a qualidade e o design sofisticado. É um verdadeiro símbolo de poder.",
+        "O Conjunto Mistery superou todas as minhas expectativas. A embalagem, os detalhes, tudo impecável. Me senti parte de algo exclusivo.",
       starsIcon: "0",
     },
     {
-      name: "Adriano Sollozzo",
+      name: "Guilherme Costa",
       description:
-        "Perfume do Poderoso Chefão é único e marcante. Eu me sinto poderoso e confiante sempre que o uso.",
+        "O relógio é um verdadeiro espetáculo! A roleta girando dá um toque especial, e a sensação de usá-lo é única. Um acessório indispensável.",
+      starsIcon: "1",
+      image: "https://example.com/imagens/guilherme-costa.jpg",
+    },
+    {
+      name: "André Ribeiro",
+      description:
+        "Esse conjunto realmente entrega estilo e personalidade. A gargantilha e a Juliet fazem uma combinação perfeita.",
       starsIcon: "1",
     },
     {
-      name: "Marco Ricci",
+      name: "Henrique Almeida",
       description:
-        "A caneta é elegante e luxuosa. Escrever com ela é uma experiência única que me faz sentir no controle, só usando para sentir o mesmo.",
+        "Se você quer presença e exclusividade, esse conjunto é a escolha certa. Os detalhes impressionam e chamam atenção por onde passo.",
+      starsIcon: "1",
+      image: "https://example.com/imagens/henrique-almeida.jpg",
+    },
+    {
+      name: "Vinícius Cardoso",
+      description:
+        "Sempre fui fã do Neymar e quando vi esse conjunto, soube que precisava ter. A experiência de receber e usar é surreal.",
       starsIcon: "1",
     },
     {
-      name: "Emílio Bonanno",
+      name: "Fernando Lopes",
       description:
-        "Com toda certeza o relógio é uma obra-prima. Além de exibir estilo, sua precisão e funcionalidade são impecáveis.",
-      starsIcon: "1",
-    },
-    {
-      name: "Salvatore persico",
-      description:
-        "Este perfume do Poderoso Chefão é uma fragrância poderosa que deixa uma impressão duradoura. Uso em ocasiões especiais.",
-      starsIcon: "1",
-    },
-    {
-      name: "Giorgio Massino",
-      description:
-        "Estou muito surpreso com o combo Mistery, recebi o conjunto do Poderoso Chefão que é a minha aliada nos negócios. Sua elegância e destaque transmitem confiança aos meus clientes.",
+        "O combo Mistery realmente faz jus ao nome. A expectativa de receber é grande, e quando chega, supera qualquer expectativa!",
       starsIcon: "0",
+      image: "https://example.com/imagens/fernando-lopes.jpg",
     },
     {
-      name: "Luigi Lombardo",
+      name: "Bruno Xavier",
       description:
-        "Comprei e recebi o relógio do Poderoso Chefão como presente para meu pai e ele ficou encantado. É uma peça de valor inestimável.",
+        "Comprei o relógio como presente para meu irmão e ele ficou simplesmente fascinado. É uma peça única, cheia de detalhes incríveis.",
       starsIcon: "1",
     },
     {
-      name: "Federico Rizzuto",
+      name: "Diego Fernandes",
       description:
-        "Ganhei o perfume de presente da minha esposa do Poderoso Chefão, ele é sedutor e envolvente. Recebo elogios constantes por sua fragrância marcante.",
+        "A qualidade da gargantilha é excepcional. Dá um toque de luxo e combina com qualquer ocasião. Um item essencial para quem quer se destacar.",
       starsIcon: "1",
+      image: "https://example.com/imagens/diego-fernandes.jpg",
     },
     {
-      name: "Giovanni Montalbano",
+      name: "Rodrigo Lemos",
       description:
-        "Recebi hoje e estou impressionado pois é o acessório perfeito para quem busca transmitir autoridade. Seu design é um verdadeiro diferencial.",
+        "Recebi hoje e já sei que não vou tirar do corpo. O conjunto todo exala estilo e exclusividade. Valeu cada centavo!",
       starsIcon: "1",
     },
   ],

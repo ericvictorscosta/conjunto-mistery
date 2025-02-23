@@ -262,8 +262,8 @@ function FrontNeymarJr() {
 
           <div className="text_space">
             <HeadLineImage
-              bannerImage="https://cdn.shopify.com/s/files/1/0679/9946/5650/files/domina-tempo.jpg?v=1740161096"
-              videoId="https://cdn.shopify.com/videos/c/o/v/56deaf234c7c4c3ebe748389193420e8.mp4"
+              bannerImage="https://cdn.shopify.com/s/files/1/0679/9946/5650/files/CLIQUE_PARA_ASSISTIR.png?v=1740236170"
+              videoId="https://cdn.shopify.com/videos/c/o/v/b60c2361f5e543849bdd3bc415a33b11.mp4"
             />
 
             <Titulo tituloText='VOCÊ TERÁ A GARANTIA DE UM ESTILO FORA DA CURVA, CRAQUES NÃO SEGUEM TENDÊNCIAS. ELES CRIAM. AGORA, VOCÊ ESTÁ NO JOGO.' />
