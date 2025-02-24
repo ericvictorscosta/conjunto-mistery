@@ -226,9 +226,9 @@ function FrontNeymarJr() {
             <Price02
               valorTotal={price.toFixed(2)}
               valorPix={showPricePix.toFixed(2)}
-              valor2x="151,30"
-              valor3x="102,98"
-              valor4x="78,82"
+              valor2x="144,95"
+              valor3x="96,63"
+              valor4x="72,48"
               valor5x="64,33"
               valor6x="54,67"
               valor7x="47,76"
@@ -237,9 +237,9 @@ function FrontNeymarJr() {
               valor10x="35,34"
               valor11x="32,70"
               valor12x="30,51"
-              valorTotal2x="151,30"
-              valorTotal3x="102,98"
-              valorTotal4x="78,82"
+              valorTotal2x="144,95"
+              valorTotal3x="96,63"
+              valorTotal4x="72,48"
               valorTotal5x="64,33"
               valorTotal6x="54,67"
               valorTotal7x="47,76"
