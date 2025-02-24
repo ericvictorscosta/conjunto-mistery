@@ -82,17 +82,17 @@ const FaqFooter = ({
       <ul className="terms">
         <li><a onClick={() => termsOfUse()}>Termos de Uso</a></li>
         <li className="divisor"><a onClick={() => Privacity()}>Política de Privacidade</a></li>
-        <li className="divisor"><a onClick={() => ExchangePolicy()}>Política Devoluções</a></li>
+        <li className="divisor"><a onClick={() => ExchangePolicy()}>Política de Devoluções</a></li>
         <li className="divisor"><a onClick={() => PaymentPolicy()}>Política Pagamento e ChargeBack</a></li>
         <li className="divisor"><a onClick={() => AboutUs()}>Sobre Nós</a></li>
         <li className="divisor"><a onClick={() => Track()}>Dúvidas e Rastreio</a></li>
         <li className="divisor"><a onClick={() => ContactSupport()}>Contato e Suporte</a></li>
-        <li className="divisor"><a onClick={() => WarrantySupport()}>Garrantia e Assistência</a></li>
+        {/* <li className="divisor"><a onClick={() => WarrantySupport()}>Garrantia e Assistência</a></li> */}
       </ul>
 
-      <div className="contact">Email: contato@omgreplics.com | WhatsApp: (47) 9 9715-2385</div>
-      <div className="copyright">Copyright OMG REPLICS SA. Todos os direitos reservados.</div>
-      <div className="copyright">CNPJ: 40.596.247/0001-37 | Rua Daniel Campregher, Ilha da Figueira,   Guaramirim, 175, Santa Catarina - SC | CEP: 82970-000</div>
+      <div className="contact">Email: contato@conjuntomistery.com | WhatsApp: (98) 9 8108-7743</div>
+      <div className="copyright">Copyright Conjunto Mistery SA. Todos os direitos reservados.</div>
+      <div className="copyright">CNPJ: 31.485.530/0001-09 | R. Sacramento, 918018 - Campo Grande, Rio de Janeiro - RJ | CEP: 23087-320</div>
     </S.ContainerTerms>
     </>
   )

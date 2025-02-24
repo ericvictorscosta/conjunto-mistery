@@ -40,7 +40,6 @@ const PaymentPolicy = () => {
             <ul>
               <li>Cartão de crédito (parcelamento disponível).</li>
               <li>PIX.</li>
-              <li>Boleto bancário.</li>
             </ul>
           </S.Descricao>
         </S.Bloco>
@@ -58,7 +57,6 @@ const PaymentPolicy = () => {
             <ul>
               <li>PIX: até 3 dias úteis.</li>
               <li>Cartão de crédito: até 10 dias úteis, conforme regras da operadora do cartão.</li>
-              <li>Boleto: até 5 dias úteis após a aprovação da devolução.</li>
             </ul>
           </S.Descricao>
         </S.Bloco>

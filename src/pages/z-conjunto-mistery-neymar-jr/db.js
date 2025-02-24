@@ -84,7 +84,7 @@ export const FrameDefault = {
   },
 
   infoCupom: {
-    infoCupom: "Estoque Limitado devido a alta demanda",
+    infoCupom: "Serão comercializadas apenas 100 unidades",
     quantifyCupom: "",
   },
 

@@ -30,7 +30,7 @@ const Price = ({
         {subtitle}
       </TitleProduct>
       <Text>
-        apenas <strong>{parcelas} </strong>sem juros de:
+        apenas <strong>{parcelas} </strong> de:
       </Text>
       <Row>
         <CutPrice>

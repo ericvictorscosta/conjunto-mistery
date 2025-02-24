@@ -48,7 +48,7 @@ function FrontNeymarJr() {
 
   const [selectedColor, setSelectedColor] = useState("azul")
   const [selectedSize, setSelectedSize] = useState("68")
-  const [price, setPrice] = useState(249.90)
+  const [price, setPrice] = useState(289.90)
 
   const campoRef = useRef(null)
 
@@ -74,8 +74,7 @@ function FrontNeymarJr() {
   const navigate = useNavigate()
 
   const handleButtonClick = () => {
-    window.location.href =
-      "https://opera-godfather.mycartpanda.com/checkout/169779386:1"
+    window.location.href = "https://conjunto-mistery-nj.mycartpanda.com/checkout/175074062:1"
 
     // fbq("track", "InitiateCheckout", {
     //   value: price,
@@ -126,15 +125,26 @@ function FrontNeymarJr() {
   }, [horas, minutos, segundos]);
 
 
-  const [quantidade, setQuantidade] = useState(235);
+  const [quantidade, setQuantidade] = useState(77);
   const [tempoAleatorio, setTempoAleatorio] = useState(2);
+  const timerRef = useRef(null);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setQuantidade((prevQuantidade) => prevQuantidade + 1);
+    // Configura o intervalo
+    timerRef.current = setInterval(() => {
+      setQuantidade((prevQuantidade) => {
+        // Verifica se já atingiu ou ultrapassou 95
+        if (prevQuantidade >= 95) {
+          clearInterval(timerRef.current); // Para o intervalo imediatamente
+          return prevQuantidade; // Mantém o valor atual sem incrementar
+        }
+        // Se ainda não atingiu 95, incrementa
+        return prevQuantidade + 1;
+      });
     }, tempoAleatorio * 1000);
 
-    return () => clearInterval(timer);
+    // Função de limpeza para evitar múltiplos intervalos
+    return () => clearInterval(timerRef.current);
   }, [tempoAleatorio]);
 
   useEffect(() => {
@@ -215,6 +225,32 @@ function FrontNeymarJr() {
             <Price02
               valorTotal={price.toFixed(2)}
               valorPix={showPricePix.toFixed(2)}
+              valor2x="151,30"
+              valor3x="102,98"
+              valor4x="78,82"
+              valor5x="64,33"
+              valor6x="54,67"
+              valor7x="47,76"
+              valor8x="42,59"
+              valor9x="38,56"
+              valor10x="35,34"
+              valor11x="32,70"
+              valor12x="30,51"
+              valorTotal2x="151,30"
+              valorTotal3x="102,98"
+              valorTotal4x="78,82"
+              valorTotal5x="64,33"
+              valorTotal6x="54,67"
+              valorTotal7x="47,76"
+              valorTotal8x="42,59"
+              valorTotal9x="38,56"
+              valorTotal10x="35,34"
+              valorTotal11x="32,70"
+              valorTotal12x="30,51"
+            />
+            {/* <Price02
+              valorTotal={price.toFixed(2)}
+              valorPix={showPricePix.toFixed(2)}
               valor2x={(price * 0.5).toFixed(2)}
               valor3x={(price * 0.3333).toFixed(2)}
               valor4x={(price * 0.24998).toFixed(2)}
@@ -237,7 +273,7 @@ function FrontNeymarJr() {
               valorTotal10x={(price * 0.1172 * 10).toFixed(2)}
               valorTotal11x={(price * 0.10798 * 11).toFixed(2)}
               valorTotal12x={(price * 0.1004 * 12).toFixed(2)}
-            />
+            /> */}
           </Row>
 
           <ButtonCtn>

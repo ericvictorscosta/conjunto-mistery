@@ -4,9 +4,9 @@ export const FrameDefault = {
     },
 
     BannerSup: {
-        descricaoPromocao: "A MAGIA DO NATAL EM CADA SEGUNDO",
+        descricaoPromocao: "EXCLUSIVIDADE EM CADA DETALHE",
         desconto: "",
-        validoSomente: "PROMOÇÃO: ITEMS COM ATÉ 35% OFF",
+        validoSomente: "PROMOÇÃO: CONJUNTO MISTERY COM 45% OFF",
         prazoValidade: ""
     },
 

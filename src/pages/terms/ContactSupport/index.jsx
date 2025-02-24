@@ -38,8 +38,8 @@ const ContactSupport = () => {
           <S.Descricao><span>1.1</span>Estamos aqui para ajudar! Entre em contato por um dos canais abaixo:</S.Descricao>
           <S.Descricao>
             <ul>
-              <li><strong>E-mail:</strong> contato@omgreplics.com</li>
-              <li><strong>WhatsApp:</strong> 47 99715-2385</li>
+              <li><strong>E-mail:</strong> contato@conjuntomistery.com</li>
+              <li><strong>WhatsApp:</strong> (98) 98108-7743</li>
               <li><strong>Horário de Atendimento:</strong> Segunda a sexta, das 9h às 18h (exceto feriados).</li>
             </ul>
           </S.Descricao>

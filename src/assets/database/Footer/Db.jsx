@@ -4,33 +4,38 @@ export const DataBaseFooter = {
     Faq: [
         {
             itemS: "item1",
-            question: "A COLEÇÃO",
-            resposta: "Descubra a elegância e precisão dos nossos relógios, verdadeiras obras-primas criadas com os materiais mais nobres e projetadas para máxima durabilidade. Cada peça reflete excelência, sofisticação e um compromisso com a perfeição que transcende o tempo. Escolha um clássico para acompanhar você em todos os momentos."
+            question: "O CONJUNTO MISTERY NEYMAR JR",
+            resposta: "O Conjunto Mistery Neymar Jr é a união perfeita de estilo, ousadia e exclusividade. Composto pelo relógio réplica Jacob & Co Casino Tourbillon, a icônica Juliet Oakley Thump e a luxuosa gargantilha de cruz cravejada, esse conjunto foi feito para quem quer se destacar e elevar seu visual a outro nível."
+        },
+        {
+            itemS: "item2",
+            question: "EDIÇÃO LIMITADA - APENAS 100 Un",
+            resposta: "Essa é uma oportunidade única! Apenas 100 unidades do Conjunto Mistery Neymar Jr serão comercializadas. Não perca a chance de garantir o seu antes que a oferta acabe. Estoques limitados e alta demanda!"
         },
         {
             itemS: "item3",
-            question: "ENCONTRE O SEU OMEGA",
-            resposta: "Facilitamos sua compra com diversas opções de pagamento! Aceitamos todos os cartões de crédito, PIX e boleto bancário. Aproveite o parcelamento em até 12 vezes no cartão, com 3x sem juros, ou garanta um desconto exclusivo de 12,02% no PIX. Encontre seu Ômega com as melhores condições!"
+            question: "FORMAS DE PAGAMENTO",
+            resposta: "Facilitamos sua compra com diversas opções de pagamento! Aceitamos todos os cartões de crédito e PIX. Parcelamos em até 12x no cartão, ou oferecemos um desconto exclusivo de 7% para pagamentos via PIX. Garanta já o seu conjunto!"
         },
         {
             itemS: "item4",
-            question: "IDEIAS DE PRESENTES",
-            resposta: "Buscando o presente perfeito? Nossa loja é autenticada e oferece total segurança nas transações. Contamos com certificado SSL de segurança, garantindo que seus dados de pagamento sejam protegidos por criptografia avançada. Surpreenda com elegância e confiança!"
+            question: "PRAZO DE ENVIO E ENTREGA",
+            resposta: "Enviamos para todo o Brasil com frete grátis! O prazo de entrega varia entre 6 a 12 dias úteis, dependendo da sua localização, contamos também com o Frete Exclusivo que agiliza o seu Conjunto Mistery NJ de 5 a 6 dias úteis. Assim que o pagamento for aprovado, seu pedido será processado e enviado o mais rápido possível."
         },
         {
             itemS: "item5",
-            question: "MASTER CHRONOMETER",
-            resposta: "Experimente a comodidade da entrega gratuita em todo o Brasil! Nossos produtos são enviados pelos Correios e possuem um prazo padrão de 6 a 12 dias úteis, após a aprovação do pagamento. Em alguns casos, o pedido pode chegar antes ou sofrer pequenos atrasos devido a imprevistos. Qualidade e compromisso até a sua porta."
+            question: "CÓDIGO DE RASTREAMENTO",
+            resposta: "Após a confirmação do pagamento, você receberá um código de rastreamento por e-mail e WhatsApp para acompanhar seu pedido em tempo real. Transparência e segurança do início ao fim!"
         },
-        {
-            itemS: "item6",
-            question: "SERVIÇO DE APOIO AO CLIENTE",
-            resposta: "Acompanhe seu pedido com facilidade! Assim que o pagamento for confirmado, você receberá automaticamente o código de rastreamento por e-mail e WhatsApp. Nosso compromisso é mantê-lo informado em cada etapa, proporcionando uma experiência de compra tranquila e transparente."
-        },
+        // {
+        //     itemS: "item6",
+        //     question: "POSSO GANHAR O RELÓGIO?",
+        //     resposta: "Sim! Todos os clientes que adquirirem o Conjunto Mistery Neymar Jr receberão a Juliet e a Gargantilha, mas apenas 1 entre 100 sortudos receberá também o relógio réplica Jacob & Co Casino Tourbillon. Será que você terá essa sorte?"
+        // },
         {
             itemS: "item7",
-            question: "MAIS",
-            resposta: "Garantimos total acompanhamento do seu pedido! O código de rastreamento será enviado diretamente para o seu e-mail e WhatsApp. Você poderá verificar o status da entrega sempre que desejar, com segurança e praticidade."
-        },
-    ],
+            question: "GARANTIA E SEGURANÇA",
+            resposta: "Sua compra é 100% segura! Contamos com certificado SSL, garantindo total proteção dos seus dados. Além disso, oferecemos garantia incondicional de 2 anos sobre os principais items do Conjunto, para que você compre com total tranquilidade."
+        }
+    ]    
 }

@@ -56,8 +56,8 @@ const CardProductClean = ({
                 </p>
 
                 <div className="price-ctn">
-                  <span> 3x de</span>
-                  <p className="price-real">R${priceOfProduct}</p>
+                  <span> 4x de</span>
+                  <p className="price-real">R$ 78,82</p>
                 </div>
 
               </PriceZone>

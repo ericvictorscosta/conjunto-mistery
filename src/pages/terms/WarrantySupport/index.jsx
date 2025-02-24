@@ -55,7 +55,7 @@ const WarrantySupport = () => {
         <S.Bloco>
           <S.SubTitle>2. Como Acionar a Garantia</S.SubTitle>
           <S.Descricao><span>2.1</span>Para acionar a garantia, siga os passos abaixo:</S.Descricao>
-          <S.Descricao><span>2.2</span>Entre em contato pelo e-mail contato@omgreplics.com ou WhatsApp 47 99715-2385.</S.Descricao>
+          <S.Descricao><span>2.2</span>Entre em contato pelo e-mail contato@conjuntomistery.com ou WhatsApp98 98108-7743.</S.Descricao>
           <S.Descricao><span>2.3</span> Informe:</S.Descricao>
           <S.Descricao>
             <ul>
