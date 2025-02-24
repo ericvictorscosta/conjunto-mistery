@@ -41,6 +41,7 @@ import ModalAddToCard from "../../components/ModalAddToCard"
 import { ShowQuestions } from "../../components/ShowQuestions"
 import { Logo } from "../../components/Logo"
 import { DataBaseFooter } from "../../assets/database/Footer/Db"
+import { Avaliables } from "../../components/Avaliables"
 
 function FrontNeymarJr() {
   const Db = FrameDefault
@@ -186,7 +187,7 @@ function FrontNeymarJr() {
                 title={Db.Price.tituloProduto}
                 parcelas={Db.Price.parcelas}
                 cutPrice={showCortPrice.toFixed(2)}
-                parcelaPrice={(price * 0.24998).toFixed(2)}
+                parcelaPrice="78,82"
                 valorTotal={price.toFixed(2)}
                 valorPix={showPricePix.toFixed(2)}
               />
@@ -409,7 +410,7 @@ function FrontNeymarJr() {
         </Especificacoes>
         
 
-        <AvaliablesText acessDb={Db.Avaliables} />
+        <Avaliables acessDb={Db.Avaliables} />
 
         <CardProductClean
           onClick={() =>

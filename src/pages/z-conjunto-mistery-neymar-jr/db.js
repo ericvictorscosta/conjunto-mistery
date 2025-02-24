@@ -42,36 +42,8 @@ export const FrameDefault = {
 
     {
       source:
-        "https://cdn.shopify.com/videos/c/o/v/01545b092c224394a59d762f1c310f5a.mp4",
-      thumbVideo: 'https://cdn.shopify.com/s/files/1/0648/5904/6103/files/321120c4682c407e8e523070c8673175_1666923114_tplv-efzqqlc8t1-1_720_720.png?v=1686289796',
-      alt: "Image 00",
-      type: 'video'
-    },
-    {
-      source:
-        "https://cdn.shopify.com/videos/c/o/v/4dff7d2328ba4a61a5ea4ce7d68e5131.mp4",
-      thumbVideo: 'https://cdn.shopify.com/s/files/1/0648/5904/6103/files/ocne9QVZgBzXAQD7fbRgEjKBwHro0gZvEVAb8j_tplv-efzqqlc8t1-1_720_720.png?v=1686290341',
-      alt: "Image 00",
-      type: 'video'
-    },
-    {
-      source:
-        "https://cdn.shopify.com/videos/c/o/v/302930364efa463b960e462636098fc9.mp4",
-      thumbVideo: 'https://cdn.shopify.com/s/files/1/0648/5904/6103/files/d83d02f0ef6e49ed92a0dd86ae2b2294_1657667556_tplv-efzqqlc8t1-1_720_720.png?v=1686290744',
-      alt: "Image 00",
-      type: 'video'
-    },
-    {
-      source:
-        "https://cdn.shopify.com/videos/c/o/v/34aa0c8377af45678bed4a5ca856c19d.mp4",
-      thumbVideo: 'https://cdn.shopify.com/s/files/1/0648/5904/6103/files/abc7eb9c9d1046a1ab9c95a366b51a93_1666882037_tplv-efzqqlc8t1-1_720_720.png?v=1686325889',
-      alt: "Image 00",
-      type: 'video'
-    },
-    {
-      source:
-        "https://cdn.shopify.com/videos/c/o/v/9f3dbd903d184209a50e9420c44a37b0.mp4",
-      thumbVideo: 'https://cdn.shopify.com/s/files/1/0648/5904/6103/files/fded4bf52d0b4cb394fe9310b10a5db2_1666970324_tplv-efzqqlc8t1-1_720_720.png?v=1686326407',
+        "https://cdn.shopify.com/videos/c/o/v/2eb230b76b8147f0bf2a0dcfb4284279.mp4",
+      thumbVideo: 'https://cdn.shopify.com/s/files/1/0679/9946/5650/files/Jacob-Co-Casino-Tourbillon-02.jpg?v=1740364877',
       alt: "Image 00",
       type: 'video'
     },
@@ -104,7 +76,7 @@ export const FrameDefault = {
     descricao2:
       "",
     ImageLpSeq1:
-      "https://cdn.shopify.com/s/files/1/0648/5904/6103/files/arte-2-alif-psd.jpg?v=1686282166",
+      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/CLIQUE_PARA_ASSISTIR_1.png?v=1740364112",
     ImageLpSeq11:
       "https://cdn.shopify.com/videos/c/o/v/622cf1efc4994ac58af3cd9467b4eff0.mp4",
 
@@ -187,7 +159,14 @@ export const FrameDefault = {
       description:
         "Recebi o conjunto completo com o relógio, a gargantilha e a Juliet. A qualidade é surreal! Sempre que uso, recebo elogios.",
       starsIcon: "1",
-      image: "https://example.com/imagens/lucas-menezes.jpg",
+      imageLink: "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/5c0f8383-0432-487b-ae1c-8a158f8eff97-compressed.jpg?v=1740365568",
+    },
+    {
+      name: "Rafael Souza",
+      description:
+      "A gargantilha é simplesmente impecável. Ela combina com qualquer look e tem uma presença marcante. Sinto que eleva meu estilo a outro nível.",
+      starsIcon: "1",
+      imageLink: "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/img_2492-c151c5897e34fae5e617125980277009-1024-1024.jpg?v=1740365949",
     },
     {
       name: "Felipe Andrade",
@@ -196,17 +175,11 @@ export const FrameDefault = {
       starsIcon: "0",
     },
     {
-      name: "Rafael Souza",
-      description:
-        "A gargantilha é simplesmente impecável. Ela combina com qualquer look e tem uma presença marcante. Sinto que eleva meu estilo a outro nível.",
-      starsIcon: "1",
-      image: "https://example.com/imagens/rafael-souza.jpg",
-    },
-    {
       name: "Thiago Martins",
       description:
         "O Conjunto Mistery superou todas as minhas expectativas. A embalagem, os detalhes, tudo impecável. Me senti parte de algo exclusivo.",
       starsIcon: "0",
+      imageLink: 'https://cdn.shopify.com/s/files/1/0679/9946/5650/files/672f9a2ed1b651.jpg?v=1740365548'
     },
     {
       name: "Guilherme Costa",

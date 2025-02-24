@@ -85,7 +85,7 @@ const FaqFooter = ({
         <li className="divisor"><a onClick={() => ExchangePolicy()}>Política de Devoluções</a></li>
         <li className="divisor"><a onClick={() => PaymentPolicy()}>Política Pagamento e ChargeBack</a></li>
         <li className="divisor"><a onClick={() => AboutUs()}>Sobre Nós</a></li>
-        <li className="divisor"><a onClick={() => Track()}>Dúvidas e Rastreio</a></li>
+        <li className="divisor"><a onClick={() => ContactSupport()}>Dúvidas e Rastreio</a></li>
         <li className="divisor"><a onClick={() => ContactSupport()}>Contato e Suporte</a></li>
         {/* <li className="divisor"><a onClick={() => WarrantySupport()}>Garrantia e Assistência</a></li> */}
       </ul>
