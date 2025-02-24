@@ -416,7 +416,7 @@ function FrontNeymarJr() {
           onClick={() =>
             minhaSecaoRef.current.scrollIntoView({ behavior: "smooth" })
           }
-          nameOfProduct='CONJUNTO MISTERY GODFATHER'
+          nameOfProduct='CONJUNTO MISTERY NEYMAR JR'
           sinceXX='https://cdn.shopify.com/s/files/1/0648/5904/6103/files/313356563_3323876334534874_2630218426635507994_n_1_c1eadafc-2791-412e-8129-3a6182ec17ba.png?v=1686516754'
           linkButton={() =>
             minhaSecaoRef.current.scrollIntoView({ behavior: "smooth" })
