@@ -49,7 +49,7 @@ const router = createBrowserRouter([
   },
   // RELÓGIOS | OFERTAS
   {
-    path: "conjutno-mistery-nj",
+    path: "conjunto-mistery-nj",
     element:
       <CtnClose>
         <FrontNeymarJr />
