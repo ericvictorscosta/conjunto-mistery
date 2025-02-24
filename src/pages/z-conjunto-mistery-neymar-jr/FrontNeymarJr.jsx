@@ -187,7 +187,7 @@ function FrontNeymarJr() {
                 title={Db.Price.tituloProduto}
                 parcelas={Db.Price.parcelas}
                 cutPrice={showCortPrice.toFixed(2)}
-                parcelaPrice="78,82"
+                parcelaPrice="72,48"
                 valorTotal={price.toFixed(2)}
                 valorPix={showPricePix.toFixed(2)}
               />
