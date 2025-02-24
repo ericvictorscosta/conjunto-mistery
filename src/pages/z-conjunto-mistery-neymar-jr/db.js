@@ -166,7 +166,6 @@ export const FrameDefault = {
       description:
       "A gargantilha é simplesmente impecável. Ela combina com qualquer look e tem uma presença marcante. Sinto que eleva meu estilo a outro nível.",
       starsIcon: "1",
-      imageLink: "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/img_2492-c151c5897e34fae5e617125980277009-1024-1024.jpg?v=1740365949",
     },
     {
       name: "Felipe Andrade",
