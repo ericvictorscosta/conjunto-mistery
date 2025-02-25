@@ -76,7 +76,7 @@ export const FrameDefault = {
     descricao2:
       "",
     ImageLpSeq1:
-      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/CLIQUE_PARA_ASSISTIR_1.png?v=1740364112",
+      "https://cdn.shopify.com/s/files/1/0679/9946/5650/files/ERIC---CONJUNTO-MISTERY2.png?v=1740452372",
     ImageLpSeq11:
       "https://cdn.shopify.com/videos/c/o/v/622cf1efc4994ac58af3cd9467b4eff0.mp4",
 
